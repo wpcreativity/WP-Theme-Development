@@ -1,0 +1,154 @@
+/*
+Theme Name: Eastern Solutions Group
+Theme URI: #
+Author: Prashant Kansal
+Author URI: https://profiles.wordpress.org/prashant4
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+/****************** Carrer Page************************/
+
+.banner{
+    background: url(../images/business-career-confidence-776615.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.text-area{
+    margin: 157px -52px;
+    width: 77%;
+    background: #475d8d;
+    padding: 40px 50px;
+}
+.banner .text-area span{
+    color: #fff;
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.banner .text-area p{   
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.8;
+    padding-top: 24px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.banner .text-area .btn{
+   background: #fff;
+    border-radius: 0;
+    padding: 13px 40px;
+}
+.banner .text-area .btn:hover{
+    background: #000;
+    color: #fff;
+    box-shadow: 2px 2px 5px #fff;
+}
+.banner .text-area .btn a{
+     color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+}
+.banner .text-area .btn:hover a{
+    color: #fff;
+}
+.Content{    background-color: #fff;
+    padding: 40px 0px;}
+.Content .top-text{text-align:center;position: relative;}
+.Content .top-text p{font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 0.6px;}
+.Content .top-text p::after{
+    content: '';
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #475d8d;
+    width: 5%;
+    height: 3px;
+    margin: auto;
+}
+.Content .top-text sub{
+    color: Red;
+    font-family: Arial;
+    font-size: Small;
+    font-weight: bold;
+}
+
+.application-form{
+    margin: auto;
+    width: 60%;
+    background: #e0e0e0a1;
+    padding: 30px 30px 30px 42px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px #000;
+}
+.application-form h1{ 
+  
+}
+.application-form p{
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #4c4c4c;
+    width: 100%;
+    line-height: 2;
+}
+.application-form span{
+    display: block;
+    color: #ff0018;
+    font-size: 13px;
+    width: 100%;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.application-form form{}
+.application-form form input[type="text"]{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    padding: 0px 14px;
+}
+.application-form form .first-type input[type="text"]{
+    width: 49%;
+    height: 36px;
+    outline: 0;
+    padding: 0px 14px;
+}
+.application-form form select{
+    width: 100%;
+    height: 38px;
+    outline: 0;
+    padding-left: 10px;
+}
+.application-form form label{
+    max-width: 100%;  
+    line-height: 1.7;
+}
+.application-form form input[type="submit"]{
+    width: 120px;
+    height: 45px;
+    background: #475d8d;
+    border: 2px solid #475d8d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.7px;
+    box-shadow: 6px 4px 5px #475d8dc7;
+}
+.application-form form input[type="submit"]:hover{
+    background:#fff;
+    color: #475d8d;
+    border: 2px solid #fff;
+    font-size: 17px;
+    font-weight: 600;
+}

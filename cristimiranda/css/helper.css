@@ -1,0 +1,166 @@
+html:not(.style-scope)
+{
+    --main-color:#000000;
+    --muted:#B3B3B3;
+    --def-color:#4D4D4D;
+    --primary-background-color: #ffffff;
+    --disabled-text-color: #9b9b9b;
+    --divider-color: #dbdbdb;
+    --error-color: #dd2c00;
+    --primary-color:#000000;
+    --secondy-color:#ffff00;
+}
+html:not(.style-scope)
+{
+    
+    --v0:0px;
+    --v1:1px;
+    --v2:2px;
+    --v4:4px;
+    --v5:5px;
+    --v6:6px;
+    --v7:7px;
+    --v8:8px;
+    --v10:10px;
+    --v11:11px;
+    --v12:12px;
+    --v14:14px;
+    --v15:15px;
+    --v16:16px;
+    --v18:18px;
+    --v20:20px;
+    --v22:22px;
+    --v24:24px;
+    --v25:25px;
+    --v26:26px;
+    --v28:28px;
+    --v30:30px;
+    --v32:32px;
+    --v34:34px;
+    --v35:35px;
+    --v36:36px;
+    --v38:38px;
+    --v40:40px;
+    --v42:42px;
+    --v44:44px;
+    --v45:45px;
+    --v46:46px;
+    --v48:48px;
+    --v50:50px;
+    --v300:300;
+    --v400:400;
+    --v500:500;
+    --v600:600;
+    --v700:700;
+    --v800:800;
+    --v900:900;
+
+
+}
+html:not(.style-scope)
+{
+    --border:var(--v2) solid var(--main-color);
+}
+
+
+@font-face {
+    font-family: 'Korolev';
+    src: url('../font/Korolev-Light.woff2') format('woff2'),
+        url('../font/Korolev-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korolev';
+    src: url('../font/Korolev-Medium.woff2') format('woff2'),
+        url('../font/Korolev-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korolev';
+    src: url('../font/Korolev-Heavy.woff2') format('woff2'),
+        url('../font/Korolev-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../font/MuseoSans-500.woff2') format('woff2'),
+        url('../font/MuseoSans-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+html:not(.style-scope)
+{
+    --font-family:Korolev;
+    --museoSans:MuseoSans;
+
+}
+body{
+    font-size: var(--v14) !important;
+    font-family: var(--font-family) !important;
+    color: var(--def-color) !important;
+}
+.fz12
+{
+    font-size: 12px;
+}
+.fz26{
+    font-size: var(--v26);
+}
+
+.fz34{
+    font-size: var(--v34);
+}
+.fz18
+{
+    font-size:var(--v18);
+}
+.fz22
+{
+    font-size:var(--v22);
+}
+.fz30
+{
+    font-size: 30px;
+}
+.fz38
+{
+    font-size: var(--v38);
+}
+.fz48
+{
+    font-size: var(--v48);
+}
+
+.lh24
+{
+    line-height: var(--v24);
+}
+.muted-text
+{
+    color:var(--muted);
+}
+.pr-color
+{
+    color:var(--main-color);
+}
+.museoSans
+{
+    font-family: 'MuseoSans' !important;
+}
+.primary-font
+{
+    --font-family:Korolev;
+}
+.f-w-300{font-weight: var(--v300);}.f-w-400{font-weight: var(--v400);}.f-w-500{font-weight: var(--v500);}.f-w-600{font-weight: var(--v600);}.f-w-700{font-weight: var(--v700);}.f-w-800{font-weight: var(--v800);}.f-w-900{font-weight: var(--v900);}
+.ls0_1{letter-spacing: 0.1px;}.ls0_3{letter-spacing: 0.3px;}.ls0_5{letter-spacing: 0.5px;}.ls0_10{letter-spacing: 0.10px;}
+.list-none {list-style: none;}
+

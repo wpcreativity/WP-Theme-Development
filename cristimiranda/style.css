@@ -1,0 +1,144 @@
+/*
+Theme Name: Cristi Miranda
+Theme URI: http://cristi-miranda.com
+Author: Prashant Kansal
+Author URI: https://prashantkansal.com
+Description: Cristi Miranda was born in Puerto Rico and moved to the US when she was 17 years old. Since then, her drive and passion have pushed her to excel as a mother, entrepreneur, and athlete. She is focussed on bringing the best version of herself into the world with everything she does.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cristi-miranda
+*/
+.donate-section ul li input[type="image"]  {
+    max-width: 150px;
+}
+.donate-section ul li input[type="image"]+  img
+{
+    display:none;
+}
+#Banner .BannerContent h1:nth-child(1):after {
+    animation-direction: reverse;
+}
+
+.hid-br+ .container-fluid .row+ .row {
+    display: none;
+}
+
+
+.thankyou h1 {
+    display: table;
+    margin: 0px auto;
+}
+
+.thankyou h1:before {
+    content: " ";
+    position: absolute;
+    left: 45px;
+    bottom: -5px;
+    width: 100px;
+    height: 2px;
+    background: var(--main-color);
+}
+.donate-modal .modal-body:before {
+    background: #000000c4;
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.donate-modal p {
+    color: white;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+.donate-modal .form-control {
+    padding-left: 15px;
+}
+
+.donate-modal .modal-body .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.donate-modal .modal-body .form-group label {
+    width: 114px;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+.border-group {
+    padding: 0 15px;
+    border: 2px solid yellow;
+    position: relative;
+}
+.border-group p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.donate-modal .modal-body .form-group input {
+    height: 35px;
+}
+/*.chose-method ul li {
+    flex: 0 0 30%;
+    margin: 10px 0;
+    padding: 10px;
+}*/
+
+.chose-method ul li a {
+    display: flex;
+}
+.chose-method p {
+    font-size: 17px;
+    margin: 0;
+    position: relative;
+}
+
+.chose-method ul {
+    position: relative;
+}
+.content-modal .modal-body h1 {
+    text-transform: capitalize;
+}
+
+.content-modal .modal-body .flex-row label {
+    width: 90px;
+    color: white;
+    font-size: 18px;
+}
+.content-modal .modal-body .flex-column label {
+    font-size: 18px;
+    color: white;
+    position: relative;
+}
+
+.content-modal .modal-body textarea {
+    height: 110px;
+}
+.content-modal .modal-body .flex-column label {
+    font-size: 18px;
+    color: white;
+    position: relative;
+}
+
+.content-modal .modal-body textarea {
+    height: 110px;
+}
+
+.content-modal .modal-body:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000c4;
+}

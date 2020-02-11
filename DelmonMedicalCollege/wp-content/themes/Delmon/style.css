@@ -1,0 +1,1232 @@
+/*
+Theme Name: Delmon Medical College
+Theme URI: http://delmonmedicalcollege.com
+Author: Prashant Kansal
+Author URI: https://prashantkansal.com
+Description: Delmon Medical College is not just a classroom. It is as effective as on the job training, as it has a fully operational dialysis facility to educate students in a real-life medical environment. This unique experience is only available at Delmon Medical College. The dialysis facility on-site is Center for Renal Replacement (CRR), an independent, family-owned 16 station chronic outpatient dialysis facility.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: delmonmedicalcollege
+*/
+.tabform ul li {
+width: 45%;
+text-align: center;
+border: none;
+}
+
+.tabform ul a {
+display: block;
+border: none;
+}
+.tabform ul {
+border: none;
+margin: 0;
+}
+
+.tabform ul li a {
+border: 1px solid #e0e0e0 !important;
+border-radius: 0 !important;
+font-size: 14px;
+letter-spacing: 4px;
+text-transform: uppercase;
+color: #8cc640;
+font-weight: 500;
+}
+
+
+
+.tabform ul li:nth-child(1) a.active {
+background: #8cc640;
+border-color: #8cc640 !important;
+color: white;
+position: relative;
+}
+
+.tabform ul li:nth-child(1) a.active:before {content: " ";position: absolute;right: -38px;top: 0px;width: 38px;height: 100%;background: white;border-left: 18px solid #8cc640;border-top: 18px solid #ffffff;border-bottom: 18px solid white;}
+
+
+
+.tabform ul li:nth-child(2) a {
+border-left: none !important;
+}
+.tabform ul li:nth-child(1) a {
+border-right: none !important;
+}
+
+.tabform ul li:nth-child(2) a.active {
+background: #8cc640;
+color: white;
+border-color: #8cc640 !important;
+position: relative;
+}
+
+.tabform ul li:nth-child(2) a.active:before {content: " ";content: " ";position: absolute;left: 0;top: 0px;width: 38px;height: 100%;background: white;border-left: 18px solid #ffffff;border-top: 18px solid #8cc640;border-bottom: 19px solid #8cc640;}
+.gform_wrapper .gf_page_steps
+{
+	border:none !important;
+}
+
+span.gf_step_number {
+    display: none !important;
+}
+.HealthHead h1+ p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--h-color);
+}
+.spanTab {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--h-color);
+    cursor: default;
+}
+a#nav-profile-tab, a#nav-contact-tab {
+    color: #2d99cd;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.see-dalmomn p {
+    text-align: center;
+}
+
+/**********************admissions css*********
+*                                            *
+**********************************************/
+.admission-form ul li a
+{
+    letter-spacing: 1px;
+}
+.admission-form ul li {
+    width: calc(100% / 3);
+    margin-bottom: 0 !important;
+}
+
+.admission-form  ul li:nth-child(3) a.active {
+    background: #8cc640;
+    color: white;
+    position: relative;
+
+}
+
+.admission-form ul li:nth-child(3) a.active:before {content: " ";content: " ";position: absolute;left: 0;top: 0px;width: 38px;height: 100%;background: white;border-left: 18px solid #ffffff;border-top: 18px solid #8cc640;border-bottom: 19px solid #8cc640;}
+.admission-form ul li a
+{
+    border: none !important;
+}
+.admission-form ul
+{
+    border:1px solid #f1f1f1;
+}
+.admission-form ul li:nth-child(2) a.active:after
+{
+content: " ";
+    position: absolute;
+    right: -38px;
+    top: 0px;
+    width: 38px;
+    height: 100%;
+    background: white;
+    border-left: 18px solid #8cc640;
+    border-top: 18px solid #ffffff;
+    border-bottom: 18px solid white;
+}
+.admission-form h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 26px;
+}
+
+.admission-form h3+ p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.admission-form .form-control {
+    width: 100%;
+}
+
+.phno {
+    font-weight: 600;
+    font-size: 11px;
+}
+.admission-form .form-control::placeholder
+{
+    font-size: 11px;
+}
+a.pr-color {
+    color: var(--primary-color) !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: normal !important;
+        text-transform: inherit !important;
+}
+.btm2 {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 7px 45px;
+    text-align:center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: none;
+}
+.btm2:hover {
+    background: #8cc640;
+    border-color: #8cc640;
+}
+
+button.btm1 {
+    text-transform: uppercase;
+    padding: 7px 33px;
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    text-decoration: none !important;
+    border: none;
+    background: #666666;
+    color: white;
+}
+.ft-tn-grp p {
+    font-size: 10px;
+}
+button.btm1:hover
+{
+    background: #8cc640;
+}
+.admission-form .form-group {
+    margin-bottom: 30px;
+}
+.rg {
+    font-size: 12px;
+    font-weight: 600;
+}
+.admission-form #profile textarea.form-control.py-3::placeholder {
+    color: #a5a5a5 !important;
+    font-weight: 500;
+}
+.admission-form #profile textarea.form-control.py-3
+{
+    height: 120px;
+    
+}
+.bg {
+    background: #f2f2f2 !important;
+}
+
+.bg input {
+    background: transparent;
+}
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    
+    font-size: 12px;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"]:focus {
+    
+    box-shadow: none;
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.admission-form div#profile .form-group p {
+    font-size: 14px;
+    display: block;
+    font-weight: 600;
+    color: black;
+    width: 100%;
+}
+.tabform p.txt
+{
+    font-size: 10px;
+    display: block;
+    font-weight: 500;
+    color: #505050;
+    margin-top: 26px;
+}
+.graycolor i {
+    color: #b7b7b7;
+    font-weight: 400;
+    font-size: 10px;
+}
+p.optet {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #505050 !important;
+
+
+}
+.admission-form input[type="radio"] {
+    margin-right: 25px;
+}
+.box-des p {
+    margin-bottom: 9px;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.box-des {
+    margin-top: 14px;
+}
+
+.box-des ul li {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 0;
+}
+.card
+{
+    border-radius: 0 !important;
+}
+.box-des ul {
+    list-style: decimal;
+    padding-left: 30px;
+    margin: 23px 0;
+}
+.paymentbox {
+    border-radius: 0 !important;
+}
+
+.paymentbox .card-header {
+    background: transparent;
+    padding: 10px 0;
+}
+
+.paymentbox .card-header a {
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 30px;
+    color: black;
+}
+
+.paymentbox .card-header div#nav-tab {
+    border: none;
+}
+
+.paymentbox .card-header div#nav-tab a+ a {border-left: 1px solid gray;}
+
+.paymentbox .card-header a.active {
+    color: var(--primary-color);
+}
+.paymentbox .card-body {
+    padding: 15px 30px;
+}
+.pr-color {
+    color: var(--primary-color) !important;
+}
+.border.d-flex.flex-row.align-items-center.py-1 label+ select {
+    height: 35px;
+}
+.admission-form input[type=radio]:checked:after{
+    background: #c7c7c7;
+}
+p.text-right.reqi {
+    margin: 0;
+    color: #b7b7b7;
+    font-size: 11px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/**********************End admissions css*********
+*                                            *
+**********************************************/
+
+/**********************Courses css*********
+*                                            *
+**********************************************/
+
+.catlog-text p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.catlog-text p:last-child {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.download-catlog .btm2 {
+    padding: 7px 30px;
+}
+.download-catlog {
+    background: #f1f1f1;
+    padding: 15px 0;
+}
+.curseprogram {
+    margin: 50px 0;
+}
+
+.curse-title h1 {
+    font-size: 25px;
+    font-weight: 900;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.curse-title h1+ p {
+    font-size: 15px;
+    margin-top: 40px;
+    display: table;
+}
+
+.curse-title h1:before {content: " ";position: absolute;width: 68px;height: 2px;background: #8cc640;bottom: -24px;display: block;left: calc(50% - 35px);}
+.curseboyd h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.curseboyd #accordion .card-header {
+    background: transparent;
+    border-bottom: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 13px 20px;
+    border-radius: 0;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.curseboyd #accordion .card {
+    margin-bottom: 15px;
+    border-top: 0;
+}
+
+.curseboyd #accordion .card-footer {
+    border: none;
+	background:transparent !important;
+}
+.curseboyd #accordion .card-header i {
+    color: var(--primary-color);
+    line-height: 18px;
+}
+.card-header[aria-expanded="true"] {
+    background:var(--primary-color) !important;
+    color:white;
+    border-top-color: var(--primary-color);
+}
+.card-header[aria-expanded="true"] i{
+    color:white !important;
+    transform: rotate(90deg);
+    padding: 0 !important;
+}
+
+.curseboyd #accordion .card-header span {width: 30px;border-left: 1px solid #d8d8d8;
+float:right;
+}
+.curseboyd #accordion .card-body h3, .curseboyd #accordion .card-footer h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.curseboyd #accordion .card-body p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #a7a7a7;
+
+}
+.curseboyd #accordion .card-body 
+{
+    padding-bottom: 0px;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
+    width: 22%;
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+    padding: 6px 0;
+    font-size: 12px;
+}
+
+.links .b1 {
+    background: #8cc640;
+}
+
+.links .b2 {
+    background: #689324;
+}
+
+.links .b3 {
+    background: var(--primary-color);
+}
+
+.links .b4 {
+    background: #66c7ed;
+}
+.links a:hover, .links a:focus {
+    color: white;
+}
+.down-pop {
+    max-width: 400px !important;
+}
+.down-pop h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.down-pop h3 {
+    font-size: 16px;
+    color: #8cc640;
+}
+
+.down-pop {}
+
+.down-pop .modal-header {
+    padding: 7px 7px;
+}
+
+.down-pop .modal-content {
+    border-radius: 0;
+    border: none;
+}
+.btm2:focus, .btm1:focus {
+    outline: 0;
+}
+/**********************End Courses css*********
+*                                            *
+**********************************************/
+
+/**********************Start our story css*****
+*                                             *
+**********************************************/
+.story-content p {
+    font-size: 15px;
+    padding: 0 12%;
+    line-height: 28px;
+}
+
+.story-content .btngrps .btm2:hover {
+    color: white;
+}
+
+.bg-with-text p {
+    font-size: 15px;
+    padding: 0 11%;
+    line-height: 28px;
+}
+.bg-with-text {
+    padding: 142px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -95px;
+    position: relative;
+}
+
+.bg-with-text:before {content: " ";position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.38);}
+
+.our-vision  p {
+    font-size: 15px;
+    padding: 0 15%;
+}
+
+h1.text-center.text-black {
+    color: black;
+}
+.story-broad span.line {
+    width: 231px;
+}
+.broad h1 {
+    font-size: 31px;
+    color: black;
+    font-weight: 600;
+}
+
+.broad span.line {
+    width: 220px;
+}
+
+.our-vision h1, .value-our h1 {
+    font-size: 30px;
+    color: black;
+}
+.value-our span.line {
+    width: 200px;
+}
+.broad-title h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+.broad-title span.line {
+    width: 239px;
+}
+
+.margin-minus {
+    margin-top: -16px;
+}
+.margin-minus h4 {
+    letter-spacing: 1px;
+}
+
+.margin-minus h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.margin-minus p {
+    font-size: 14px;
+}
+.mb {
+    margin-bottom: 70px;
+}
+.plr-15 {
+    padding: 53px 5% 0;
+    display: flex;
+}
+
+.plr-15 .flip-box {
+    width: calc(100% / 4);
+}
+.plr-15 .flip-box .flip-box-front {
+    background: #f5fbff;
+}
+.plr-15 .flip-box h2
+{
+    font-size:20px;
+}
+.plr-15 .flip-box p
+{
+    font-size: 14px;
+    margin-top: 0;
+}
+ .plr-15 .flip-box .flip-box-back p
+ {font-size: 12px;padding: 0 5px;margin-top: 6px;}
+/**********************End our story css*******
+*                                             *
+**********************************************/
+
+ul.navbar-nav li:hover ul {
+            display: block;
+        }
+        .carrer-glance .abt-us h1 {
+            color: #000;
+        }
+        .dropdown-menu li {
+            display: block;
+        }
+        .header-area ul li .dropdown-menu li a {
+            font-size: 14px !important;
+            padding: 0 !important;
+            font-family: Roboto !important;
+            display: block;
+            padding: 9px 17px !important;
+            color: white;
+        }
+        .dropdown-menu {
+            background: #8cc640;
+            border-radius: 0;
+            width: 253px;
+            left: 19px !important;
+            border: none;
+            padding: 0px;
+        }
+        .dropdown-menu li+li {
+            border-top: 1px solid #ffffff;
+        }
+        .header-area ul li .dropdown-menu li:hover {
+            background: #2d99cd;
+        }
+        .header-area ul li .dropdown-menu li:hover a {
+            color: white;
+        }
+        .online-learn {
+            background: url(http://frcoder.net/Delmon/wp-content/uploads/2019/08/bgbanner.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .gform_wrapper .gfield_required {
+            color: #790000;
+            margin-left: 4px;
+            display: none;
+        }
+        input#gform_next_button_1_5 {
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            background: #2d99cd;
+            color: white !important;
+            padding: 7px 0;
+            border: transparent;
+            width: 100%;
+            cursor: pointer;
+        }
+        select#input_1_4, select#input_1_3, select#input_1_2, select#input_1_12 {
+            height: auto;
+            border-radius: 0;
+            border: none;
+            margin: 10px 0;
+            color: var(--h-color);
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            background-color: #fff;
+            background-clip: padding-box;
+        }
+       
+        input#gform_previous_button_1, input#gform_submit_button_1 {
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            background: #2d99cd;
+            color: white !important;
+            padding: 7px 32px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input#input_1_6, input#input_1_7, input#input_1_8, input#input_1_10, input#input_1_13, input#input_1_11 {
+            border-radius: 0;
+            border: none;
+            margin: 10px 0;
+            color: var(--h-color);
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+            width: 100% !important;
+            height: calc(2.25rem + 2px);
+            padding: .375rem .75rem;
+            line-height: 1.5;
+            background-color: #fff;
+            background-clip: padding-box;
+        }
+       div#gform_confirmation_message_1 {
+            color: #62ad00;
+            font-weight: bold;
+            font-size: 17px;
+            font-style: italic;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+        body .gform_wrapper .validation_error {
+            display: none;
+        }
+        .gform_wrapper .description_above .gfield_description {
+            padding: 0px !important
+        }
+        .gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+            background-color: transparent !important;
+            margin-bottom: 0px!important;
+            border-top: 0px !important;
+            border-bottom: 0px !important;
+            padding-bottom: 0px !important;
+            padding-top: 0px !important;
+            box-sizing: border-box;
+        }
+        body .gform_wrapper ul li.gfield {
+            margin-top: 0px !important;
+        }
+        span.gf_step_label {
+            padding: 8px 44px;
+            color: #fff;
+            
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .gf_step_previous {
+    opacity: 9 !important;
+}
+        .gform_wrapper .gform_page_footer {
+            margin: 0px !important;
+            border-top: 0px !important;
+            padding: 0px !important;
+        }
+        .form-box .bottom-area {
+            padding: 0 15px 15px 15px;
+        }
+        .gform_wrapper ul.gform_fields li.gfield {
+            padding-right: 0px !important;
+        }
+        .gform_wrapper #gf_step_1_1 {
+            margin: 0 !important;
+        }
+        .gform_wrapper #gf_step_1_2 {
+            margin: 0 0 0 30px !important;
+        }
+        .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+            max-width: 100% !important;
+        }
+        .contact-forms ul li {
+    width: 80% !important;
+}
+
+.contact-forms ul li input, .contact-forms ul li select, .contact-forms ul li textarea {
+    width: 100% !important;
+    margin-bottom: 15px;
+    height: 45px;
+    padding: 0 20px !important;
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+.contact-forms .gform_page_footer input:hover {
+          background: #8cc640;
+}   
+
+.contact-forms .gform_page_footer input {
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    background: var(--primary-color);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+}
+
+
+.contact-forms .gf_step {
+    border-radius: 0 !important;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 500;
+    margin: 0 !important;
+    height: 40px !important;
+    width: 50% !important;
+    text-align: center;
+    border: none !important;
+    position: relative;
+}
+
+.contact-forms div#gf_step_4_2 {
+    opacity: 9;
+}
+
+.contact-forms .gf_page_steps .gf_step_clear {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+.contact-forms  .gf_step.gf_step_active span.gf_step_label {
+    color: white !important;
+}
+
+.contact-forms .gf_step span.gf_step_label {
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.contact-forms .gf_page_steps {
+    width: 80% !important;
+    border: 1px solid  #CCC !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.contact-forms .gf_page_steps gf_step_active {
+    background: red !important;
+}
+
+.contact-forms .gf_step.gf_step_active {
+    background: #8cc640;
+}
+
+.contact-forms .gf_step.gf_step_active:before {
+    content: " ";
+    position: absolute;
+    right: -38px;
+    top: 0px;
+    width: 38px;
+    height: 100%;
+    background: white;
+    border-left: 15px solid #8cc640;
+    border-top: 18px solid #ffffff;
+    border-bottom: 18px solid white;
+}
+
+.contact-forms span.gf_step_label {
+    color: #8cc640 !important;
+}
+        .gform_fields .gfield input::-webkit-input-placeholder {
+    font-size: 12px !important;
+}
+        .contact-forms .gf_step.gf_step_active.gf_step_last:after {content: " ";position: absolute;left: 0;top: 0px;width: 18px;height: 100%;background: white;border-left: 18px solid #ffffff;border-top: 18px solid #8cc640;border-bottom: 19px solid #8cc640;}
+
+.contact-forms .gf_step.gf_step_active.gf_step_last:before {
+    opacity: 0;
+}
+        
+.contact-forms ul#input_4_11 {
+    display: flex;
+}
+
+
+.contact-forms ul#input_4_11 input {
+    height: auto;
+    margin-top: 10px;
+    margin-right: -20px;
+}
+
+
+.contact-forms ul#input_4_11 li {margin: 0;width: auto !important;display: flex;margin-right: 21px;}
+    li#field_4_4 {
+    font-weight: 600;
+    padding-top: 29px;
+}
+
+li#field_4_4 i {
+    font-weight: 300;
+}
+        .cform-paragraph {
+    font-size: 10px;
+    color: #828282;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+        li#field_4_1 {
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+li#field_4_1 i {
+    display: block;
+    margin-bottom: 20px;
+    color: #828282;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+        .contact-forms {
+    padding: 60px 0;
+}
+        input#gform_previous_button_4 {
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid #d4d4d4;
+    padding: 9px 60px;
+}
+        input#gform_previous_button_4:hover
+        {
+            background:var(--primary-color);
+            color:white;
+        }
+        .banner-form div#gf_page_steps_1 .gf_step:not(.gf_step_active) .gf_step_label {border: 1px solid #8cc640;
+        color:#8cc640;
+        }
+
+.banner-form div#gf_page_steps_1 .gf_step {
+    opacity: 9 !important;
+}
+
+.banner-form div#gf_page_steps_1 .gf_step.gf_step_active .gf_step_label {
+    background: #8cc640;
+}
+
+.drfund .plr-15 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.popups-bx a {
+    width: calc(100% / 5);
+    height: 140px;
+    background: #f5fbff;
+    margin: 0 10px;
+    color: var(--sec-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.popups-bx a:hover
+{
+    color:var(--sec-color);
+}
+.laptoparea {
+    background: #030708;
+}
+
+.laptoparea h1 {color: white;font-size: 24px;font-weight: 600;margin-left: 160px;line-height: 35px;}
+
+.laptoparea p {
+    margin-left: 100px;
+    width: 100%;
+    z-index: 999;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-left: 116px;
+}
+
+h1 {}
+
+.laptoparea span {
+    width: 70%;
+    height: 1px;
+    background: WHITE;
+    margin-left: 164px;
+    z-index: 9999;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    z-index: 99999;
+}
+
+.HealthArea .HealthHead h1 span{padding-bottom:20px;}
+.conact-heading h1{padding-bottom:20px;}
+
+@media only screen and (max-width: 1199px) {.header-area .collapse button{padding:6px 6px;}
+	.start-calss p{font-size:13px;}
+}
+
+@media only screen and (max-width: 991px) {
+	.links a
+	{
+		width:45%;
+	}
+	.tabform ul li:nth-child(2) a.active:before, .tabform ul li:nth-child(2) a.active:after, .admission-form ul li:nth-child(3) a.active:before
+	{
+		display:none;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 100%;
+    left: 0 !important;
+}
+	
+	.bg-with-text
+	{
+		background-position:center center;
+	}
+	.bottom-sec {display:flex;flex-direction:column;}
+	.start-calss p{padding-bottom:20px!important;padding-left:0px!important;}
+	.btngrp a {font-size: 13px;padding: 9px 10px;margin:10px 10px;}
+	.academic-detal p{width:100%;}
+	.Request {padding: 10px 15px;font-size:14px;}
+	.footer-bottom p{font-size:12px;}
+	.bg-img{height:520px!important;}
+	.title-inner {background-position: left 0px !important;}
+	.online-learn .card{max-width:100% ;padding:50px 25px;}
+.story-content p
+	{
+		padding:0 0;
+	}
+	.bg-with-text p
+	{
+		padding:0 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	button.btm1
+	{
+		margin-right:0;
+	}
+	.admission-form .form-group
+	{
+		margin-bottom:10px !important;
+	}
+	.border.d-flex.flex-row.align-items-center.py-1 .form-control {
+    margin-bottom: 0;
+}
+	.admission-form .form-control
+	{
+		margin-bottom:15px;
+	}
+	.tabform ul li a
+	{
+		font-size:12px;
+		    padding: 8px 0;
+		text-align:center;
+	}
+	
+	
+	.say-alumn h4  p{
+		margin-top:0;
+	}
+	.abt-us.w-50 {
+    width: 100% !important;
+}
+	span.line
+	{
+		width:60% !important;
+		margin: 30px auto;
+	}
+	.form-box
+	{
+		width:90%;
+		margin:0 auto;
+	}
+	.gform_wrapper .gf_page_steps {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 30px !important;
+}
+	span.gf_step_label
+	{
+		
+        font-size: 12px;
+		width:100% !important;
+		text-align:center !important;
+
+	}
+	
+.catlog-d{flex-direction:column!important;text-align:center;padding:20px 0px;}
+.download-catlog .btm2 {margin: 0 auto;margin-top: 20px;}
+.btngrp{flex-direction:column!important;text-align:center;}
+.btngrp a{font-size:14px;width:100%;}
+.contact-title h3{text-align:center;font-size:12px;}
+.contact-title h1{font-size:24px;letter-spacing:5px;}
+.curse-title h1{font-size:20px;line-height:30px;}
+.curseboyd h1{padding:20px 0px;}
+.Request{font-size:14px;padding:10px 35px;}
+.innerpage-title h2{font-size:14px;}
+.innerpage-title h2:before{left:45%;margin:0;}
+.innerpage-title h1{margin-top:10px;}
+.abt-us h1 {font-size: 28px;}
+.imagebox{margin-bottom:20px;}
+
+
+.online-learn .card a{font-size:14px;}
+.contact-forms .gf_page_steps{width:100%!important;}
+.contact-forms ul li{width:100%!important;}
+}
+
+@media only screen and (max-width: 480px) {
+	label.w-25.m-0.pl-4.phno {
+    padding-left: 7px !important;
+}
+	
+	.links a
+	{
+		width:90%;
+	}
+	.contact-form .form-control
+	{
+		margin-bottom:15px !important;
+	}
+	.contact-form .form-group
+	{
+		margin-bottom:0 !important;
+	}
+	span.bottom-line
+	{
+		width:280px;
+	}
+	span.gf_step_label
+	{
+		padding:8px 0px;
+	}
+	.contact-forms .gf_step.gf_step_active:before
+	{
+		display:none !important;
+	}
+	.say-alumn figure.position-reltive
+	{
+		margin:0 auto;
+	}
+	.say-alumn-bg, .order-2
+	{
+		padding-top:20px;
+	}
+	.say-alumn h4, .say-alumn h3, .say-alumn p {
+    text-align: left !important;
+}
+	.story-content p
+	{
+		padding:0 0;
+	}
+	.bg-div h1{
+		font-size:20px;
+	}
+	.offarea
+	{
+		height:370px;
+	}
+	.ab-btn
+	{
+		transform: translate(0, -48px);
+}
+	.altarea >p
+	{
+		margin-top:0;
+	}
+	.altarea
+	{
+		width:100%;
+	}
+	
+.contact-title h1{letter-spacing:10px;font-size:24px;}
+.contact-title h3{font-size:14px;}
+.innerpage-title h2:before{left:42%;margin:0;}
+.academics-abt h1{font-size:24px;}
+.btngrp a{font-size:13px;width:100%;}
+}
+
+@media only screen and (max-width: 640px) {
+	.contact-forms .gf_step{width:100%!important;}
+	.contact-forms .gform_page_footer input{width:60%!important;}
+	}
+
+@media only screen and (max-width: 480px) {
+	.catlog-text p
+	{
+		font-size:16px;
+	}
+.form-box h1
+	{
+	font-size:20px;	
+	}
+}
+
+
+

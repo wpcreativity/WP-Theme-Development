@@ -1,0 +1,1 @@
+[09-Dec-2019 08:52:37 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home4/delmon/public_html/wp-content/themes/twentynineteen/functions.php on line 16

@@ -1,0 +1,5 @@
+[05-Nov-2019 15:21:38 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home4/delmon/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[16-Nov-2019 12:29:13 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home4/delmon/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[16-Nov-2019 12:29:13 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home4/delmon/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[16-Nov-2019 15:43:59 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home4/delmon/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-Dec-2019 08:54:01 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home4/delmon/public_html/wp-content/themes/twentyseventeen/functions.php on line 16

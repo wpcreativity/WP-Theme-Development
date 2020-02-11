@@ -1,0 +1,396 @@
+
+@media only screen and (max-width:1200px){
+    .box h1{
+        font-size:30px;
+    }
+    .box1 h1{
+        font-size:30px;
+    }
+     .box-img .entry{
+        height:30% !important;
+    }
+    h1.title {
+    padding: 10px 0px;
+}
+	.title-wraper h1{
+		font-size:55px;
+	}
+	.perfectweb h1{
+		font-size:20px;
+	}
+	.product-box h2{
+		font-size:20px;
+	}
+	
+	
+    }
+
+
+@media only screen and (max-width:990px){
+    .box h1{
+        font-size:20px;
+    }
+    .box1 h1{
+        font-size:20px;
+    }
+    .statgy-all h1{
+        font-size:30px;
+    }
+   
+    .gallery-section h4{
+        font-size:20px !important;
+    }
+    h1.title {
+    padding: 10px 0px;
+}
+
+  .gallery-section .box-img figure img {
+    margin-top: 20px !important;
+}
+	.contact-details h1 {
+    font-size: 20px;
+}
+	.serv-box h1{
+		font-size:33px;
+		line-height:1.4;
+	}
+	.videotext h1{
+		font-size:100px;
+	}
+	.map-form .row .col-md-6:nth-child(1) {
+		width:100%;
+	}
+	.fotter .form-group{
+		width:280px;
+	}
+	.title-wraper h1{
+		font-size:40px;
+	}
+	#navbarNavDropdown {
+    background: #000;
+    padding: 20px 0px;
+    font-size: 20px;
+    margin: 5px;
+}
+	.title-wraper {
+    height: 400px;
+    width: 100%;
+}
+}
+@media only screen and (max-width:767px){
+.qu-how-wo{
+    padding:0px;
+}
+	.fotter .form-group{
+		width:260px;
+	}
+
+.box-img .entry {
+    height: 120px;
+}
+ .box1 h1{
+        font-size:35px;
+       
+    }
+    .box h1{
+        font-size:35px;
+    }
+
+      .bannderabt h1{
+          font-size:40px;
+      }
+      h1.title {
+    padding: 10px 0px;
+}
+ 	 .statgy-all p {
+    	width: 100% !important;
+		 padding: 0px;
+}
+	 .welcome h1{
+        font-size:20px;
+    }
+	.title-wraper h1{
+		font-size:35px;
+	}
+	.contact-details h1 {
+    font-size: 20px;
+}
+	.map-form .row .col-md-6:nth-child(1) {
+    height: 400px;
+}
+	.title-wraper {
+    height: 400px;
+    width: 100%;
+}
+}
+@media only screen and (max-width:680px){
+      .bannderabt h1{
+        font-size:35px;
+        position:absolute;
+      top:10px;
+    }
+    .statgy-all h1{
+        font-size:25px;
+    }
+   
+    .welcome h1{
+        font-size:20px;
+    }
+    .about-text{
+        margin-top:160px;
+    }
+    h1.title {
+    padding: 10px 0px;
+}
+ 
+	.welcome p{
+		padding:0px;
+	}
+	.title-wraper h1{
+		font-size:40px;
+	}
+	.contact-details h1 {
+    font-size: 16px;
+}
+	.contact-form h2{
+		font-size:30px;
+	}
+	.perfectweb{
+		padding:50px 30px;
+	}
+	.BrandsArea .BrandTab a {
+    padding: 0px 0px;
+    margin: 0px 6px;
+		line-height:2.4;
+}
+	.videotext h1{
+		font-size:100px;
+	}
+	.title-wraper {
+    height: 400px;
+    width: 100%;
+}
+	
+}
+@media only screen and (max-width:580px){
+      .bannderabt h1{
+          font-size:30px;
+      }
+      h1.title {
+    padding: 10px 0px;
+}
+		 .statgy-all p {
+    	width: 100% !important;
+			 padding: 0px;
+}
+	.title-wraper h1{
+	font-size: 30px;
+}
+	.contact-form h2{
+		font-size:30px;
+	}
+	.contact-details h1 {
+    font-size: 25px;
+}
+.fotter{
+		margin:0px;
+	}
+	.BrandsArea .BrandTab a {
+    padding: 0px 0px;
+    margin: 0px 6px;
+}
+	.videotext h3{
+		font-size:22px;
+	}
+	.videotext h1{
+		font-size:70px;
+	}
+	.serv-box{
+		padding: 80px 30px;
+	}
+	.fotter{
+		margin-top:50px;
+	}
+	.fotter .form-group{
+		width:260px;
+	}
+	.title-wraper {
+    height: 300px;
+    width: 100%;
+}
+	
+}
+@media only screen and (max-width:480px){
+     .bannderabt h1{
+         font-size:18px;
+     }
+     .box1 h1{
+         font-size:20px;
+     }
+     .box h1{
+         font-size:20px;
+     }
+     .about-text{
+        margin-top:110px;
+    }
+    h1.title {
+    padding: 10px 0px;
+}
+ 
+  .testimonials{
+      padding-top:60px;
+   padding-bottom:200px;
+  }
+	 .clinets{
+       padding:20px 0px;
+     }
+	.testimonial p{
+       padding-right:0px;
+     }
+	  .welcome{
+    padding:0px;
+  }
+	.box-img{
+     height:200px;
+   }
+	 .welcome h1 {
+		 font-size: 16px;
+	 }
+		 .statgy-all p {
+    	width: 100% !important;
+			padding-top: 10px;
+}
+	
+	.contact-form h2{
+		font-size:30px;
+	}
+	
+	.contact-form {
+    padding: 30px 0px !important;
+ }
+	.BrandsArea .BrandTab a {
+    padding: 0px 0px;
+    margin: 0px 6px;
+		line-height:2.4;
+}
+	.perfectweb h1{
+		font-size:25px;
+	}
+	.perfectweb{
+		    padding:40px 30px;
+	}
+	.videotext h3{
+		font-size:15px;
+	}
+	.serv-box{
+		padding: 80px 30px;
+	}
+	.serv-box h1{
+		font-size:30px;
+	}
+	.fotter{
+		margin-top:50px;
+	}
+	.title-wraper {
+    height: 200px;
+    width: 100%;
+}
+	.contact-details{
+		
+	}
+	.cont-box h3{
+		padding:10px 0px;
+	}
+	}
+
+@media only screen and (max-width:320px){
+     .testimonial p{
+         font-size:16px;
+     }
+	  .clinets{
+       padding:20px 0px;
+     }
+	 .testimonial p{
+       padding-right:0px;
+     }
+	 .welcome{
+    padding:0px;
+  }
+     .box-img{
+     height:200px;
+   }
+	 .testimonials{
+      padding-top:60px;
+   padding-bottom:200px;
+  }
+	 .bannderabt h1 {
+    font-size: 16px ;
+}
+	 .welcome h1 {
+		 font-size: 16px;
+	 }
+	 .statgy-all p {
+    	width: 100% !important;
+		 padding: 0px;
+}
+	.entry {
+    position: absolute;
+    top: 0px;
+}
+	.title-wraper h1{
+	font-size: 20px;
+}
+	.contact-details h1 {
+    font-size: 20px !important;
+    padding: 14px;
+}
+	.contact-form h2{
+		font-size:26px;
+	}
+	.contact-form {
+    padding: 30px 0px !important;
+ }
+	.perfectweb{
+		    padding:40px 30px;
+	}
+	.BrandTab a {
+    padding: 0px 0px !important;
+    margin: 10px 10px;
+    line-height: 2.4;
+}
+	.title-wraper h1 {
+    font-size: 28px;
+}
+	.perfectweb h1 {
+    font-size: 23px;
+}
+	.serv-box h1{
+		font-size:20px;
+	}
+	.title-wraper h1{
+		font-size:22px;
+	}
+	.serv-box{
+		padding: 80px 30px;
+	} 
+	.fotter{
+		margin-top:50px;
+	}
+	.map-form .row .col-md-6:nth-child(1) {
+    height: 300px;
+}
+	.grid-sizer, .grid-item
+	{
+		width:90%;
+	}
+	.title-wraper {
+    height: 200px;
+    width: 100%;
+}
+	.cont-box h3{
+		padding:10px 0px;
+	}
+	.fotter .form-group{
+		width:260px;
+	}
+ }
